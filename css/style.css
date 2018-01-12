@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.intro {
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	
+	background-image: url('../res/img/back.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.header {
+	padding-top: 20%;
+	color: black !important;
+}
+
+.header-text {
+	font-family: 'Source Sans Pro';
+	font-size: 8rem;
+	text-decoration: underline;
+}
+
+.intro-addon {
+	font-size: 1.3rem;
+}
+
+.about {
+	height: 100vh;
+	background-image: linear-gradient(180deg, rgb(9, 16, 32) 0%, rgb(20, 36, 59) 80%, rgb(54, 78, 106) 100%);
+}
+
+#about-img {
+	background-image: url('../res/img/VR.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0px;
+	color: white;
+}
+
+.about-header {
+	font-family: 'Source Sans Pro';
+	text-decoration: underline;
+	font-size: 5rem;
+	margin-right: 35%;
+	padding-top: 2%;
+}
+
+.about-text {
+	font-family: 'Raleway';
+	font-size: 1.3rem;
+	margin-right: 35%;
+	padding-left: 14%;
+	padding-right: 14%;
+}
