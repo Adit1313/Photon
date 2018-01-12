@@ -62,9 +62,11 @@
 
 .features {
 	background-image: url('../res/img/explore.jpg');
-	background-size: cover;
+	background-size: calc(100% + 50px);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100vh;
 	color: white;
+
+	z-index: 0;
 }
